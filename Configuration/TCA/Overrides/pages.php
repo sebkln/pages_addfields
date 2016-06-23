@@ -7,7 +7,7 @@ if (!defined('TYPO3_MODE')) {
 $fields = array(
 	'tx_pagesaddfields_customtext' => array(
 		'label' => 'LLL:EXT:pages_addfields/Resources/Private/Language/locallang_db.xlf:pages.tx_pagesaddfields_customtext',
-		'exclude' => 0,
+		'exclude' => 1,
 		'config' => array(
 			'type' => 'input',
 			'max' => 255
