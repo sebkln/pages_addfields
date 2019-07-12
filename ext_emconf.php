@@ -6,15 +6,11 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'example',
     'author' => 'Sebastian Klein',
     'author_email' => 'sebastian@sebkln.de',
-    'state' => 'alpha',
-    'internal' => '',
-    'uploadfolder' => '0',
-    'createDirs' => '',
-    'clearCacheOnLoad' => 0,
-    'version' => '1.0.0',
+    'state' => 'test',
+    'version' => '1.1.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '6.2.0-7.6.99',
+            'typo3' => '6.2.0-9.5.99',
         ],
         'conflicts' => [
         ],

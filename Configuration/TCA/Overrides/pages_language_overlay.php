@@ -1,6 +1,15 @@
 <?php
 defined('TYPO3_MODE') or die();
 
+/*
+ * ATTENTION!
+ * You will not need this file if you used TYPO3 v9 or higher!
+ * The table 'pages_language_overlay' is no longer used there.
+ *
+ * More information is available in the TYPO3 Changelog: 'Breaking: #82445 - Pages and page translations'
+ * https://docs.typo3.org/c/typo3/cms-core/master/en-us/Changelog/9.0/Breaking-82445-PagesAndPageTranslations.html
+ */
+
 // Configure new field:
 $fields = [
     'tx_pagesaddfields_customtext' => [
