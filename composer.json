@@ -1,0 +1,33 @@
+{
+	"name": "sebkln/pages-addfields",
+	"type": "typo3-cms-extension",
+	"description": "Provides a basic example how to extend TYPO3 pages with your own fields.",
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"demo"
+	],
+	"homepage": "https://www.sebkln.de",
+	"authors": [
+		{
+			"name": "Sebastian Klein",
+			"email": "sebastian@sebkln.de",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"typo3/cms-core": ">=6.2.0 <9.5.99"
+	},
+	"replace": {
+		"sebkln/pages-addfields": "self.version",
+		"typo3-ter/pages-addfields": "self.version"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "pages_addfields"
+		}
+	}
+}
