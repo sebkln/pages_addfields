@@ -4,27 +4,10 @@ How to extend pages with your own fields (including translated pages)
 
 ## Compatibility
 
-This extension works in TYPO3 6.2, v7, v8 and v9.
+This extension supports TYPO3 v9, v10 and v11.
 
-### Adjustments for TYPO3 v9 (and newer)
-
-Starting with **TYPO3 v9**, the database table _pages_language_overlay_ for translated pages is no longer in use.
-
-Therefore the following files are no longer required:
-
-* `Configuration/TCA/Overrides/pages_language_overlay.php`
-* `ext_localconf.php`
-
-The following part of `ext_tables.sql` should also be removed:
-
-```SQL
-#
-# Modifying pages_language_overlay table
-#
-CREATE TABLE pages_language_overlay (
-    tx_pagesaddfields_customtext varchar(255) DEFAULT '' NOT NULL
-);
-```
+For older TYPO3 versions (6.2 to 8.7) that use the additional database table `pages_language_overlay`,
+check out version 1.1.0 of this extension.
 
 ## Explanations
 
