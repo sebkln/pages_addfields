@@ -16,7 +16,10 @@ $fields = [
         'label' => 'LLL:EXT:pages_addfields/Resources/Private/Language/locallang_db.xlf:pages.tx_pagesaddfields_customcheckbox',
         'config' => [
             'type' => 'check',
-            'default' => 0
+            'default' => 0,
+            'behaviour' => [
+                'allowLanguageSynchronization' => true
+            ]
         ]
     ]
 ];
