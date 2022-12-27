@@ -4,15 +4,15 @@
           product-name="pages_addfields" target-language="de">
         <header/>
         <body>
-            <trans-unit id="pages.palette_title">
+            <trans-unit id="pages.palette_title" approved="yes">
                 <source>My custom fields</source>
                 <target>Meine benutzerdefinierten Felder</target>
             </trans-unit>
-            <trans-unit id="pages.tx_pagesaddfields_customtext">
+            <trans-unit id="pages.tx_pagesaddfields_customtext" approved="yes">
                 <source>Custom text field</source>
                 <target>Benutzerdefiniertes Textfeld</target>
             </trans-unit>
-            <trans-unit id="pages.tx_pagesaddfields_customcheckbox">
+            <trans-unit id="pages.tx_pagesaddfields_customcheckbox" approved="yes">
                 <source>Custom checkbox</source>
                 <target>Benutzerdefinierte Checkbox</target>
             </trans-unit>
